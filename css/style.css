@@ -1,0 +1,241 @@
+html , body{
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #ECF0F1 ;
+}
+/* Page custom grid css */
+.page-container{
+   /*min-height: 100%;*/
+   /*position: relative;*/
+   width: 100%;
+}
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right:  0 !important;
+}
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+.col-md-12{
+	padding-left: 0 !important;
+	padding-right:  0 !important;
+}
+
+/* Navbar css */
+.navbar-brand img {
+    border-radius: 50%;
+}
+nav{
+    background-color: turquoise;
+}
+.navbar-toggler{
+    /* background-color: white; */
+}
+.navbar-toggler-icon{
+
+}
+.nav-link{
+    color: black;
+}
+
+/* Dropdown Css */
+.dropbtn {
+    border: none;
+    padding: 8px;
+  }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+.dropdown-content {
+    display: none;
+    margin-left: -80px;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 165px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+button{
+    background-color: turquoise;
+}
+/* carousel css */
+.carousel-item img{
+    object-fit: cover;
+}
+.center-content{
+    margin: 80px 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 11px 3px black;
+}
+/* card css */
+
+.card{
+    box-shadow: 0px 0px 11px 3px black;
+}
+
+
+.loginForm{
+	padding: 30px;
+}
+/* Password validate info css */
+#info-list{
+    padding-left: 0px;;
+}
+ul li {
+	list-style-type: none;
+}
+#pswd_info {
+	position:absolute;
+    bottom:-5px;
+    bottom: -115px\9; /* IE Specific */
+    right:55px;
+    width:250px;
+    padding:15px;
+    background:#fefefe;
+    
+    border-radius:5px;
+    box-shadow:0 1px 3px #ccc;
+    border:1px solid #ddd;
+	display: none;
+}
+
+.invalid {
+    /* background:url(../images/logo.jpg) no-repeat 0 50%; */
+    padding-left:22px;
+    line-height:24px;
+    color:#ec3f41;
+}
+.valid {
+    /* background:url(../images/back.jpg) no-repeat 0 50%; */
+    padding-left:22px;
+    line-height:24px;
+    color:#3a7d34;
+}
+
+/* flight home page */
+#homepage {
+	background-color: #429fdd;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: -121px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 20;
+    box-shadow: 1px 0px 11px 10px transparent;
+}
+
+/*Admin add flight css*/
+#adetail2 , #detail1 , #adetail3 {
+    position:absolute;
+    bottom:-5px;
+    bottom: -115px\9; /* IE Specific */
+    right:55px;
+    width:250px;
+    padding:15px;
+    background:#fefefe;
+    border-radius:5px;
+    box-shadow:0 1px 3px #ccc;
+    border:1px solid #ddd;
+    display: none;
+}
+
+#register-btn{
+    margin-top: 25px;
+}
+.pckg-card{
+    padding: 30px;
+    margin: 20px;
+    background-color:turquoise;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px 3px black;
+
+}
+.pckg-card p {
+    margin-top: 10px;
+}
+.pckg-img{
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
+    border-radius: 8px;
+}
+.book-btn{
+    background-color: white;
+    width: 120px;
+    float: right;
+}
+.contact{
+    padding: 20px;
+    margin-bottom: 40px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.selectbox{
+    width: 100%;
+}
+#map {
+    height: 100%;
+    width: 100;
+}
+/* Admin table Csss */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.add-btn{
+  float:right;
+  width:120px;
+}
+/*Set footer into the bootom*/
+footer{
+    /* height: 250px; */
+    padding: 40px;
+    background: black;
+    /* width: 100%; */
+}
+footer h5{
+    color: azure;
+}
+
+/* Media quries */
+
+@media only screen and (max-width: 770px) {
+    .card {
+      margin-bottom: 10px;
+    }
+  }
